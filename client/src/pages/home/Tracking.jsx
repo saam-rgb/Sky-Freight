@@ -14,7 +14,7 @@ export const Tracking = () => {
               className="w-full py-2 px-4 rounded-l-md focus:outline-none text-black border border-gray-300"
             />
             <button className="bg-primary text-white rounded-r-md px-4 py-2 hover:bg-yellow-300 transition-all duration-200 cursor-pointer ">
-              Track
+              Track your shipment
             </button>
           </div>
         </div>

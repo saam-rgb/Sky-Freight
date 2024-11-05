@@ -19,7 +19,7 @@ export const Hero = () => {
         <h2 className="text-6xl font-semibold mb-10">
           Your Cargo, Our Commitment
         </h2>
-        <button className="btn">Shop now</button>
+        <button className="btn">Request a Quote</button>
       </div>
     </div>
   );
