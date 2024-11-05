@@ -24,18 +24,13 @@ export const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#tracking" className="hover:text-primary">
-                  Track orders
+                <a href="#about" className="hover:text-primary">
+                  about
                 </a>
               </li>
               <li>
-                <a href="#recommended" className="hover:text-primary">
-                  Recommended
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-primary">
-                  Blogs
+                <a href="#track" className="hover:text-primary">
+                  Tracking
                 </a>
               </li>
             </ul>
