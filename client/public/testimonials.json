@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Gokul",
+    "description": "World leaders gather at the Global Climate Summit to discuss urgent strategies to combat climate change, focusing on reducing carbon emissions and fostering renewable energy solutions.",
+    "image": "face1.webp"
+  },
+  {
+    "id": 2,
+    "title": "Jai",
+    "description": "A major breakthrough in artificial intelligence has been announced by researchers, with new advancements promising to revolutionize industries from healthcare to finance.",
+    "image": "face1.webp"
+  },
+  {
+    "id": 3,
+    "title": "Kunal",
+    "description": "NASA has unveiled plans for a new space mission that will aim to explore distant galaxies, with hopes of uncovering insights into the origins of the universe.",
+    "image": "face1.webp"
+  },
+  {
+    "id": 4,
+    "title": "Zamam",
+    "description": "Global stock markets have reached record highs as signs of economic recovery continue to emerge following the challenges posed by the global pandemic.",
+    "image": "face1.webp"
+  },
+  {
+    "id": 5,
+    "title": "Saam",
+    "description": "A leading tech company has released its latest smartphone model, featuring cutting-edge technology, improved battery life, and a sleek new design.",
+    "image": "face1.webp"
+  }
+]
