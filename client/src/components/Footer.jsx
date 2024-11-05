@@ -25,7 +25,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a href="#about" className="hover:text-primary">
-                  about
+                  About
                 </a>
               </li>
               <li>
