@@ -1,0 +1,103 @@
+[
+  {
+    "name": "Express Air Cargo",
+    "icon": "✈️",
+    "description": "Fast and reliable air cargo services designed for urgent deliveries. With SkyFreight, your time-sensitive shipments are prioritized, ensuring they reach their destination on schedule, anywhere in the world.",
+    "keywords": [
+      "Express air cargo",
+      "urgent delivery",
+      "fast shipping",
+      "international air freight"
+    ],
+    "image": "express.webp"
+  },
+  {
+    "name": "Perishable Goods Handling",
+    "icon": "❄️",
+    "description": "Keep your perishable goods fresh and intact during transit with our temperature-controlled air cargo solutions. Perfect for food, flowers, and pharmaceuticals, we ensure safe and timely delivery.",
+    "keywords": [
+      "Perishable air cargo",
+      "temperature-controlled shipping",
+      "food logistics",
+      "pharmaceutical freight"
+    ],
+    "image": "perishable.webp"
+  },
+  {
+    "name": "E-commerce Fulfillment Services",
+    "icon": "📦",
+    "description": "Streamline your online business with our e-commerce air cargo solutions. From bulk shipping to last-mile delivery, we support your business growth with reliable and fast logistics.",
+    "keywords": [
+      "E-commerce shipping",
+      "air cargo for online stores",
+      "fast delivery solutions"
+    ],
+    "image": "ecommerce_fulfillment_services.jpg"
+  },
+  {
+    "name": "Oversized Cargo Transport",
+    "icon": "🚚",
+    "description": "Transport heavy or oversized goods effortlessly with SkyFreight’s specialized air cargo services. From machinery to large equipment, we handle it all with precision and care.",
+    "keywords": [
+      "Oversized cargo",
+      "heavy equipment transport",
+      "large shipment logistics"
+    ],
+    "image": "oversized_cargo_transport.jpg"
+  },
+  {
+    "name": "Pharmaceutical & Medical Supplies",
+    "icon": "💊",
+    "description": "Trust SkyFreight for the safe delivery of pharmaceuticals and medical supplies. With temperature-controlled solutions and fast transit, we ensure critical goods are delivered on time.",
+    "keywords": [
+      "Medical air freight",
+      "pharmaceutical logistics",
+      "healthcare shipping"
+    ],
+    "image": "pharmaceutical_medical_supplies.jpg"
+  },
+  {
+    "name": "International Freight Forwarding",
+    "icon": "🌍",
+    "description": "Seamless international air cargo services to connect your business globally. With SkyFreight, enjoy efficient customs clearance and on-time delivery across 50+ countries.",
+    "keywords": [
+      "Global air cargo",
+      "international shipping",
+      "freight forwarding services"
+    ],
+    "image": "international_freight_forwarding.jpg"
+  },
+  {
+    "name": "Customs Clearance Assistance",
+    "icon": "🛃",
+    "description": "Streamline your shipping process with our hassle-free customs clearance services. SkyFreight’s experts handle documentation and compliance for smooth delivery worldwide.",
+    "keywords": [
+      "Customs clearance",
+      "air freight customs",
+      "international compliance shipping"
+    ],
+    "image": "customs_clearance_assistance.jpg"
+  },
+  {
+    "name": "Secure Valuables Transport",
+    "icon": "💼",
+    "description": "Specialized in transporting high-value items like jewelry, art, and sensitive documents with maximum security and discretion. Your valuables are safe with SkyFreight.",
+    "keywords": [
+      "Secure air transport",
+      "high-value shipping",
+      "valuables logistics"
+    ],
+    "image": "secure_valuables_transport.jpg"
+  },
+  {
+    "name": "Same-Day Local Air Freight",
+    "icon": "🕒",
+    "description": "Need it today? SkyFreight offers same-day air cargo services for local deliveries, ensuring ultra-fast shipping without compromising quality.",
+    "keywords": [
+      "Same-day air freight",
+      "local air cargo",
+      "ultra-fast delivery"
+    ],
+    "image": "same_day_local_air_freight.jpg"
+  }
+]

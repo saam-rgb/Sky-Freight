@@ -1,33 +1,50 @@
 import React from "react";
-import aboutImg from "../../assets/about.avif";
+import aboutImg from "/about.webp";
 
 export const About = () => {
   return (
-    <div
-      className="py-12 md:px-10 px-2 flex flex-col sm:flex-row items-center"
-      id="about">
-      {/* left section - content */}
-      <div className="md:w-1/2 w-full px-4 sm:mb-0 mb-4">
-        <h2 className="text-3xl font-semibold mb-6">About</h2>
-        <p className="mb-4">
-          Welcome to SkyFreight, your reliable partner in air cargo solutions.
-          We specialize in delivering your goods swiftly and securely,
-          recognizing the importance of timely logistics in today’s fast-paced
-          market. Our experienced team utilizes advanced technology and a global
-          network to ensure your shipments arrive safely and on time.
-        </p>
-        <p>
-          We cater to a variety of cargo needs, from fragile items to high-value
-          shipments, all while prioritizing quality and customer satisfaction.
-          At SkyFreight, we’re committed to providing personalized service
-          tailored to your unique requirements. Experience seamless logistics
-          with us, and let us help elevate your shipping experience to new
-          heights.
-        </p>
+    <section id="about" className="bg-gray-50 py-16">
+      <div className="container mx-auto px-6">
+        <h2 className="text-4xl font-bold text-center text-gray-800 mb-8">
+          About
+        </h2>
+        <div className="py-12  flex flex-col-reverse  sm:flex-row items-start">
+          {/* left section - content */}
+
+          <div className="md:w-1/2 w-full px-4 sm:mb-0 mb-4 text-justify ">
+            <p className="text-xl font-bold italic mb-4">
+              Welcome to SkyFreight – Your Trusted Air Cargo Partner
+            </p>
+            <p className="mb-4">
+              At SkyFreight, we redefine air cargo logistics with speed,
+              security, and reliability. In today’s fast-paced world, we
+              understand the critical need for timely and efficient shipping
+              solutions. With a team of industry experts and cutting-edge
+              technology, we ensure that your goods reach their destination
+              safely and on time—every time.
+            </p>
+            <p className="mb-4">
+              We specialize in handling a diverse range of cargo, including
+              fragile items, oversized equipment, and high-value shipments, with
+              the utmost care and precision. Our global network and commitment
+              to customer satisfaction set us apart, enabling us to deliver
+              exceptional service tailored to your unique shipping needs.
+            </p>
+            <p className="mb-4">
+              Choose SkyFreight to experience seamless, stress-free logistics
+              and elevate your air cargo solutions to a whole new level. Let us
+              handle your shipments with the expertise and dedication you
+              deserve.
+            </p>
+            <button className="bg-primary px-5 py-3 rounded-sm text-white font-semibold">
+              Let us handle your shipments
+            </button>
+          </div>
+          <div className="md:w-1/2 w-full sm:px-0 px-8 sm:mb-0 mb-5">
+            <img src={aboutImg} alt="Company Image" />
+          </div>
+        </div>
       </div>
-      <div className="md:w-1/2 w-full sm:px-0 px-4">
-        <img src={aboutImg} alt="Company Image" />
-      </div>
-    </div>
+    </section>
   );
 };
