@@ -1,4 +1,3 @@
-import React from "react";
 import { Hero } from "./Hero.jsx";
 import { Testimonials } from "./Testimonials.jsx";
 import { About } from "./About.jsx";

@@ -1,19 +1,9 @@
-import React, { useState } from "react";
-import { IoSearch, IoCartOutline } from "react-icons/io5";
+import { useState } from "react";
 import { GiAirplaneDeparture } from "react-icons/gi";
-import { HiOutlineUser } from "react-icons/hi2";
-import { FaRegHeart, FaUserAstronaut } from "react-icons/fa";
 import { Link } from "react-router-dom";
-
-const dropdown = [
-  { name: "About", href: "#about" },
-  { name: "Track orders", href: "#track" },
-  { name: "Shipment details", href: "#details" },
-];
 
 export const Navbar = () => {
   const [selectDropdown, setSelectDropdown] = useState(false);
-  const currentUser = true;
 
   return (
     <header className="mx-auto max-w-screen-2xl py-4 md:px-8 px-2">
