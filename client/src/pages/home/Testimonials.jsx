@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -9,7 +9,6 @@ import "swiper/css/pagination";
 // import required modules
 import { Navigation, Pagination } from "swiper/modules";
 import { getImgUrl } from "../../utils/getImgUrl";
-import { Link } from "react-router-dom";
 
 export const Testimonials = () => {
   const [testimonials, setTestimonials] = useState([]);

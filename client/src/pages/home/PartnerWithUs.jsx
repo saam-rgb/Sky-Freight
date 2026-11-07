@@ -1,5 +1,3 @@
-import React from "react";
-
 export const PartnerWithUs = () => {
   return (
     <section className="bg-gray-100 py-16">
@@ -13,7 +11,7 @@ export const PartnerWithUs = () => {
         <p className="text-center text-lg text-gray-600 mb-8">
           Join forces with SkyFreight and unlock new opportunities. Our seamless
           logistics solutions can help grow your business while we take care of
-          the heavy lifting. Let's build something great together.
+          the heavy lifting. Let&apos;s build something great together.
         </p>
 
         {/* CTA Button */}

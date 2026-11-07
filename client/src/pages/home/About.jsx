@@ -1,4 +1,3 @@
-import React from "react";
 import aboutImg from "/about.webp";
 
 export const About = () => {

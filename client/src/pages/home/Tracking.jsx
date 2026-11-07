@@ -1,5 +1,3 @@
-import React from "react";
-
 export const Tracking = () => {
   return (
     <section className="bg-gray-50 py-16" id="track">
