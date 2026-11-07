@@ -38,12 +38,12 @@ export const Navbar = () => {
       className={`sticky top-0 z-50 border-b border-gray-100 bg-white/95 backdrop-blur-sm transition-shadow duration-300 ${
         scrolled ? "shadow-md" : ""
       }`}>
-      <nav className="mx-auto flex max-w-screen-2xl items-center justify-between px-4 py-3 md:px-8">
+      <nav className="mx-auto grid max-w-screen-2xl grid-cols-[auto_1fr_auto] items-center gap-4 px-4 py-3 md:px-8">
         {/* Logo */}
         <Link
           to="/"
           onClick={() => setMenuOpen(false)}
-          className="flex items-center gap-2">
+          className="flex items-center gap-2 justify-self-start">
           <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-secondary text-primary">
             <GiAirplaneDeparture size={22} />
           </span>
@@ -52,8 +52,8 @@ export const Navbar = () => {
           </p>
         </Link>
 
-        {/* Desktop links */}
-        <ul className="hidden items-center gap-8 font-secondary text-secondary sm:flex">
+        {/* Desktop links, centered between logo and actions */}
+        <ul className="hidden items-center gap-8 justify-self-center font-secondary text-secondary sm:flex">
           {navLinks.map((link) => (
             <li key={link.to}>
               <NavLink to={link.to} end={link.end} className={desktopLinkClass}>
@@ -64,7 +64,7 @@ export const Navbar = () => {
         </ul>
 
         {/* Right section */}
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 justify-self-end">
           <Link
             to="/contact"
             className="hidden rounded-md bg-cta px-5 py-2 font-secondary font-semibold text-white transition-colors duration-200 hover:bg-orange-600 sm:block">
